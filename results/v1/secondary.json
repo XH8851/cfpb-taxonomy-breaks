@@ -1,0 +1,94 @@
+{
+ "d_selected_level": {
+  "rolling_plugin_known": 0.05,
+  "crc": 0.05
+ },
+ "cod_minus_rolling_plugin_known": {
+  "level": 0.05,
+  "excess_diff": 0.7640624999999991,
+  "excess_ci": [
+   0.13968749999999927,
+   1.5094335937499979
+  ],
+  "auto_diff": 10.261718749999993,
+  "auto_ci": [
+   5.694199218750005,
+   14.309707031250001
+  ]
+ },
+ "cod_minus_crc": {
+  "level": 0.05,
+  "excess_diff": 0.6945312499999989,
+  "excess_ci": [
+   0.09593749999999922,
+   1.4984960937499983
+  ],
+  "auto_diff": 4.899218750000001,
+  "auto_ci": [
+   1.614003906249991,
+   7.779414062500003
+  ]
+ },
+ "static_cod|A|pre": {
+  "excess": 0.0,
+  "sig": 0,
+  "months": 12
+ },
+ "static_cod|A|post": {
+  "excess": 14.772499999999997,
+  "sig": 13,
+  "months": 20
+ },
+ "static_cod|B|pre": {
+  "excess": 0.0,
+  "sig": 0,
+  "months": 12
+ },
+ "static_cod|B|post": {
+  "excess": 3.805555555555555,
+  "sig": 2,
+  "months": 18
+ },
+ "rolling_cod_known|A|pre": {
+  "excess": 0.3916666666666658,
+  "sig": 0,
+  "months": 12
+ },
+ "rolling_cod_known|A|post": {
+  "excess": 0.09249999999999936,
+  "sig": 0,
+  "months": 20
+ },
+ "rolling_cod_known|B|pre": {
+  "excess": 0.09999999999999905,
+  "sig": 0,
+  "months": 12
+ },
+ "rolling_cod_known|B|post": {
+  "excess": 2.3527777777777756,
+  "sig": 1,
+  "months": 18
+ },
+ "static_plugin|A|pre": {
+  "excess": 9.087499999999993,
+  "sig": 4,
+  "months": 12
+ },
+ "static_plugin|A|post": {
+  "excess": 65.3425,
+  "sig": 20,
+  "months": 20
+ },
+ "static_plugin|B|pre": {
+  "excess": 4.708333333333333,
+  "sig": 1,
+  "months": 12
+ },
+ "static_plugin|B|post": {
+  "excess": 14.722222222222221,
+  "sig": 7,
+  "months": 18
+ },
+ "tv_A": 0.23866666666666667,
+ "tv_B": 0.040333333333333374
+}

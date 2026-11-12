@@ -1,0 +1,38 @@
+{
+ "m_start": {
+  "n_train": 30000,
+  "classes": [
+   "Bank account or service",
+   "Consumer Loan",
+   "Credit card",
+   "Credit reporting",
+   "Debt collection",
+   "Money transfers",
+   "Mortgage",
+   "Other financial service",
+   "Payday loan",
+   "Prepaid card",
+   "Student loan",
+   "Virtual currency"
+  ],
+  "train_s": 5056,
+  "n_scored": 86700
+ },
+ "m_re": {
+  "n_train": 30000,
+  "n_post_break_labels": 4253,
+  "classes": [
+   "Checking or savings account",
+   "Credit card or prepaid card",
+   "Credit reporting, credit repair services, or other personal consumer reports",
+   "Debt collection",
+   "Money transfer, virtual currency, or money service",
+   "Mortgage",
+   "Payday loan, title loan, or personal loan",
+   "Student loan",
+   "Vehicle loan or lease"
+  ],
+  "train_s": 4859,
+  "n_scored": 44900
+ }
+}

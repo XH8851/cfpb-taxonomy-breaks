@@ -1,0 +1,5 @@
+contrast,x,y,months,n_months,excess_per_1k_diff,excess_ci95,p_excess,automation_diff,automation_ci95,p_automation,p_headline,p_holm
+C1,rolling_cod_known,static_plugin,all,64,-20.88,"[np.float64(-28.575), np.float64(-14.696)]",0.0,-0.341,"[np.float64(-0.4048), np.float64(-0.2361)]",0.0,0.0,0.0
+C2,rolling_cod_known,rolling_plugin_known,all,64,-3.756,"[np.float64(-6.712), np.float64(-1.797)]",0.0,-0.1801,"[np.float64(-0.238), np.float64(-0.1237)]",0.0,0.0,0.0
+C3,rolling_cod_known,rolling_cod_none,post6,14,-1.302,"[np.float64(-2.72), np.float64(-0.516)]",0.0,-0.2859,"[np.float64(-0.4523), np.float64(-0.2335)]",0.0,0.0,0.0
+C4,C4_with_llm,C4_without_llm,post6,14,-0.157,"[np.float64(-0.85), np.float64(0.418)]",0.397,0.0129,"[np.float64(-0.01), np.float64(0.053)]",0.235,0.235,0.235

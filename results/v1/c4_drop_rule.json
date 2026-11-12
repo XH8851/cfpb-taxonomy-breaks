@@ -1,0 +1,38 @@
+{
+ "0.1": {
+  "months_gain_ge_2pts": 1,
+  "of": 14,
+  "drop_rule_fires": true,
+  "mean_gain_pts": -0.97,
+  "mean_t2_share_pts": 4.05,
+  "new_items": 226,
+  "new_correct_auto_with": 7,
+  "new_correct_auto_without": 0,
+  "new_wrong_auto_with": 40,
+  "new_wrong_auto_without": 48
+ },
+ "0.15": {
+  "months_gain_ge_2pts": 0,
+  "of": 14,
+  "drop_rule_fires": true,
+  "mean_gain_pts": 0.13,
+  "mean_t2_share_pts": 1.68,
+  "new_items": 226,
+  "new_correct_auto_with": 6,
+  "new_correct_auto_without": 0,
+  "new_wrong_auto_with": 66,
+  "new_wrong_auto_without": 79
+ },
+ "0.05": {
+  "months_gain_ge_2pts": 3,
+  "of": 14,
+  "drop_rule_fires": true,
+  "mean_gain_pts": 1.29,
+  "mean_t2_share_pts": 1.72,
+  "new_items": 226,
+  "new_correct_auto_with": 0,
+  "new_correct_auto_without": 0,
+  "new_wrong_auto_with": 24,
+  "new_wrong_auto_without": 20
+ }
+}

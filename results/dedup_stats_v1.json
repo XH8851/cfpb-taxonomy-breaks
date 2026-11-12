@@ -1,0 +1,36 @@
+{
+  "pool_items": 1628450,
+  "window_items_before_cap": {
+    "ALL": 2773376
+  },
+  "share_in_dup_groups": 0.41725567257207774,
+  "share_in_dup_groups_by_window": {
+    "ALL": 0.41725567257207774
+  },
+  "n_groups": 1074017,
+  "largest_groups": [
+    26340,
+    14056,
+    7958,
+    5195,
+    4895,
+    3666,
+    3612,
+    3595,
+    3238,
+    2800
+  ],
+  "role_counts_group": {
+    "train": 956310,
+    "eval": 398247,
+    "audit": 273893
+  },
+  "params": {
+    "num_perm": 128,
+    "threshold": 0.8,
+    "shingle_words": 5,
+    "cap_per_month": 20000,
+    "seed": 20261031
+  },
+  "seconds": 218
+}

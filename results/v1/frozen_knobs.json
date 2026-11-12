@@ -1,0 +1,27 @@
+{
+ "W": 6,
+ "lam0": 0.3,
+ "test": "ms",
+ "rule_satisfied": true,
+ "aci_gamma": 0.005,
+ "aci_grid": [
+  {
+   "gamma": 0.005,
+   "automation": 0.7188,
+   "excess_per_1k": 5.1565,
+   "excess_near_placebo": 3.4214
+  },
+  {
+   "gamma": 0.01,
+   "automation": 0.7188,
+   "excess_per_1k": 5.1565,
+   "excess_near_placebo": 3.4214
+  },
+  {
+   "gamma": 0.05,
+   "automation": 0.7164,
+   "excess_per_1k": 5.4758,
+   "excess_near_placebo": 4.1929
+  }
+ ]
+}

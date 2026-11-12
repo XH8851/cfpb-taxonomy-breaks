@@ -1,0 +1,29 @@
+{
+ "title": "Risk-Controlled Complaint Routing Across Real Taxonomy Breaks: benchmark code and data",
+ "upload_type": "dataset",
+ "description": "Benchmark for risk-controlled complaint routing across two dated taxonomy breaks in the public CFPB consumer complaint narratives (2015-2025): dated label regimes, a typed crosswalk, seeded sample IDs (no narrative text), cached per-item outputs of three cascade tiers and a frozen-embedding tier, all monthly results, the replay harness, a 300-item label-noise audit, the dated protocol and a datasheet. Code is MIT; derived files are CC BY 4.0; the source records are CC0 (CFPB).",
+ "creators": [
+  {
+   "name": "Han, Xiao",
+   "orcid": "0009-0004-0983-6223"
+  }
+ ],
+ "license": "cc-by-4.0",
+ "access_right": "open",
+ "keywords": [
+  "consumer complaints",
+  "CFPB",
+  "taxonomy change",
+  "label shift",
+  "conformal risk control",
+  "LLM cascades",
+  "benchmark"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+   "relation": "isDerivedFrom",
+   "scheme": "url"
+  }
+ ]
+}

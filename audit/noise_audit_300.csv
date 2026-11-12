@@ -1,0 +1,301 @@
+cid,cell,regime,product,judgment,better_label,note,product_recovered
+6342751,B_pre,R1,Vehicle loan or lease,plausible,,Car repossession on auto loan,1
+2723522,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Identity theft errors on credit reports,0
+2882948,A_post,R1,Debt collection,plausible,,Garnishment amounts on medical debt,1
+8144912,B_post,R2,Debt or credit management,implausible,Credit reporting or other personal consumer reports,Disputes negative accounts on credit report; no debt settlement content,1
+2059544,A_pre,R0,Debt collection,plausible,,Lawyer collecting unpaid rent,1
+8236801,B_post,R2,Student loan,plausible,,SAVE/PSLF servicing problem with MOHELA,1
+7739779,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Demands removal of accounts from report,0
+2250236,A_pre,R0,Credit card,plausible,,Card issuer refused fraud dispute,0
+6641398,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,FCRA dispute letter,0
+2278524,A_pre,R0,Debt collection,plausible,,Medical bill sent to collections,0
+2572706,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Lender bankruptcy error on credit report; wants fix,0
+7993195,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Unauthorized hard inquiries,0
+2682085,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Servicer late history on report; wants removal,0
+7009757,B_pre,R1,Debt collection,ambiguous,Vehicle loan or lease,Auto lender repossession and deficiency; collection vs vehicle loan,0
+6321210,B_pre,R1,Checking or savings account,plausible,,Bank impersonation scam drained account,1
+7099523,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Requests file disclosure from consumer reporting agency,0
+2728182,A_post,R1,Mortgage,plausible,,Servicer holding insurance claim check,0
+7273993,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Data breach fraudulent accounts on report,0
+1906181,A_pre,R0,Mortgage,plausible,,Mortgage payment options and fees,0
+2318035,A_pre,R0,Money transfers,plausible,,Fraud paid through PayPal,1
+9021261,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Charge-off reporting dispute,0
+6766731,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau dispute letter,0
+2275352,A_pre,R0,Bank account or service,plausible,,Stolen debit card ATM withdrawals,1
+6205820,B_pre,R1,Checking or savings account,ambiguous,"Money transfer, virtual currency, or money service",Cash App card fraud; mobile wallet vs checking,1
+8226893,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Unknown accounts on report,0
+2592676,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Mortgage charge-off dates on reports; wants correction,0
+2278705,A_pre,R0,Credit reporting,plausible,,Inquiry removal dispute with TransUnion,1
+9432861,B_post,R2,Credit reporting or other personal consumer reports,plausible,,False accounts removal,0
+1923977,A_pre,R0,Credit card,ambiguous,Credit reporting,Card issuer asked to delete hard inquiry,0
+6331284,B_pre,R1,Credit card or prepaid card,plausible,,Credit card billing dispute,1
+8573595,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Identity theft inquiries,0
+6695391,B_pre,R1,Student loan,plausible,,PSLF consolidation processing,1
+1904294,A_pre,R0,Student loan,plausible,,Private loan payment relief refused,0
+2261433,A_pre,R0,Debt collection,ambiguous,Credit reporting,Collector re-aging debt on credit reports,1
+2074625,A_pre,R0,Student loan,plausible,,Student loan servicing access and late fees,0
+2092558,A_pre,R0,Payday loan,implausible,Debt collection,Collector threatening over old payday loan,1
+7271819,B_pre,R1,Credit card or prepaid card,plausible,,Credit card application denial,1
+6058530,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Incomplete accounts dispute,0
+6986502,B_pre,R1,Checking or savings account,plausible,,"Bank account hacked, funds stolen",0
+7041618,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureaus scoring/history complaint,0
+2739158,A_post,R1,"Money transfer, virtual currency, or money service",implausible,Credit card or prepaid card,Credit card payment refusal fees from Chase,1
+7801540,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Permissible purpose dispute,1
+6124256,B_pre,R1,Debt collection,ambiguous,"Credit reporting, credit repair services, or other personal consumer reports",Collector reporting disputes on credit file,1
+2567069,A_post,R1,Checking or savings account,plausible,,Duplicate bank debits and fees,1
+8219481,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Asks bureaus to remove paid debt,0
+8277174,B_post,R2,Vehicle loan or lease,plausible,,Auto loan deferral interest balloon,1
+2602440,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Unauthorized inquiries,0
+1934816,A_pre,R0,Credit reporting,plausible,,Equifax reporting time limits,0
+7234801,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau verification dispute,0
+2147860,A_pre,R0,Debt collection,plausible,,Collector pursuing debt waived by stipulation,0
+6056819,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,TransUnion refuses identity theft block,0
+2863853,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Obsolete account still reported by Equifax,0
+9766540,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Fraud items dispute ignored,0
+2884173,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bankruptcy accounts misreported,0
+2144450,A_pre,R0,Debt collection,ambiguous,Credit card,Too vague; discovered old credit card debt,0
+2798537,A_post,R1,Debt collection,ambiguous,"Credit reporting, credit repair services, or other personal consumer reports",Collector reporting fraudulent account; wants report deletion,0
+6796248,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Unverified accounts dispute,1
+6927407,B_pre,R1,Mortgage,implausible,"Credit reporting, credit repair services, or other personal consumer reports",Only about unauthorized credit pull; no mortgage issue,1
+8085543,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Data breach items deletion,0
+2357849,A_pre,R0,Student loan,plausible,,IBR payment processing,0
+7315869,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Late payment reporting dispute,0
+1944462,A_pre,R0,Debt collection,implausible,Credit reporting,"Servicer status update; wants credit line deleted, no collector",0
+5879597,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Identity theft dispute with TransUnion,0
+1964110,A_pre,R0,Other financial service,plausible,,Paid student loan debt relief company,1
+8084648,B_post,R2,Vehicle loan or lease,ambiguous,"Payday loan, title loan, personal loan, or advance loan",Koalafi lease-to-own; no vehicle mentioned,1
+7610236,B_post,R2,Vehicle loan or lease,plausible,,Verification request for vehicle lease,1
+2225807,A_pre,R0,Consumer Loan,plausible,,Auto loan payment increase,1
+2399449,A_pre,R0,Credit card,implausible,Bank account or service,"Citigold bank account bonus, not credit card",0
+2488872,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Paid account reported late,0
+2406690,A_pre,R0,Payday loan,implausible,Credit reporting,Paid payday loan on report; asks removal from report,1
+2620775,A_post,R1,Vehicle loan or lease,implausible,"Credit reporting, credit repair services, or other personal consumer reports",Paid-off auto loan balance misreported; report fix,1
+2677701,A_post,R1,Student loan,plausible,,Private loan forbearance problems,1
+8909674,B_post,R2,Debt collection,implausible,Vehicle loan or lease,"Lender auto loan payoff dispute, no collector",0
+2285048,A_pre,R0,Debt collection,plausible,,Law firm collection calls,0
+1920363,A_pre,R0,Debt collection,plausible,,Collector messages to third parties,0
+2170836,A_pre,R0,Debt collection,plausible,,Collector notice and paid status,1
+6390928,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau verification request,0
+5987336,B_pre,R1,Debt collection,ambiguous,"Credit reporting, credit repair services, or other personal consumer reports",Vague identity theft statement; no collection content,0
+2700449,A_post,R1,Debt collection,ambiguous,Vehicle loan or lease,Lessor collecting property tax after lease end,0
+7989747,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Furnisher accuracy challenge,0
+9523897,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Trafficking block request to bureaus,0
+2311378,A_pre,R0,Prepaid card,plausible,,Prepaid card expiration and refund,1
+8019924,B_post,R2,Student loan,plausible,,IDR processing delay at Nelnet,1
+2026686,A_pre,R0,Other financial service,plausible,,Debt management firm refund check,1
+2000707,A_pre,R0,Credit reporting,plausible,,Personal info errors at Experian,1
+9630900,B_post,R2,Debt collection,plausible,,Unknown third-party collector,1
+2685980,A_post,R1,"Payday loan, title loan, or personal loan",plausible,,Paid-off title loan vehicle repossessed,1
+2254454,A_pre,R0,Mortgage,plausible,,Servicer false delinquency blocks refinance,1
+5883563,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Identity theft block request,1
+1964630,A_pre,R0,Student loan,plausible,,Rehab program collection calls,0
+6458928,B_pre,R1,Vehicle loan or lease,ambiguous,"Payday loan, title loan, or personal loan",Too vague; loan type unclear,0
+1932807,A_pre,R0,Prepaid card,plausible,,Prepaid card fees,1
+2285306,A_pre,R0,Payday loan,plausible,,Online payday lender application dispute,1
+5989977,B_pre,R1,"Money transfer, virtual currency, or money service",plausible,,Venmo frozen funds,1
+2477832,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Experian refuses annual report,0
+2560857,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,FICO score complaint,0
+2859767,A_post,R1,Student loan,plausible,,Payment application on consolidation loan,0
+8233136,B_post,R2,Debt or credit management,plausible,,Credit repair company charges,1
+6698436,B_pre,R1,Vehicle loan or lease,implausible,"Credit reporting, credit repair services, or other personal consumer reports",Pure credit report dispute of auto loan tradeline,1
+2230190,A_pre,R0,Virtual currency,plausible,,Coinbase account access,1
+9364022,B_post,R2,Mortgage,plausible,,Servicer slow to remove borrower,1
+9154642,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Account verification request,0
+2199013,A_pre,R0,Debt collection,plausible,,Rental debt sent to collector,0
+2883873,A_post,R1,Checking or savings account,plausible,,Funds availability on bank card,0
+8026995,B_post,R2,Checking or savings account,plausible,,Bank froze account pending ID,1
+1999049,A_pre,R0,Debt collection,plausible,,"Collector debt not owed, past limitations",0
+2347690,A_pre,R0,Mortgage,plausible,,Foreclosure and modification with Ocwen,0
+7987194,B_post,R2,Credit card,plausible,,Credit card transaction dispute,1
+7845803,B_post,R2,Debt or credit management,implausible,Mortgage,Servicer withholding payment history; no debt relief service,1
+8109570,B_post,R2,Vehicle loan or lease,plausible,,Auto loan payoff and interest,0
+2832176,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau verification of student loan tradelines,0
+8270495,B_post,R2,Checking or savings account,plausible,,"Bank closed account, held funds",0
+2199660,A_pre,R0,Bank account or service,plausible,,Unauthorized withdrawals from checking,1
+2593067,A_post,R1,Student loan,plausible,,Private loan payment relief,1
+2702789,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Fraudulent personal info and accounts,0
+2738477,A_post,R1,Debt collection,ambiguous,"Credit reporting, credit repair services, or other personal consumer reports",Bare list of paid/charged-off tradelines; unclear,1
+2779416,A_post,R1,Mortgage,plausible,,"Servicer misapplied payoff, delinquency calls",0
+2853710,A_post,R1,Student loan,plausible,,IDR eligibility with Navient,0
+6928006,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Fraudulent Kohl's card dispute,0
+2651690,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Fraudulent card account on reports,1
+6528602,B_pre,R1,"Money transfer, virtual currency, or money service",plausible,,PayPal account limited,0
+2159455,A_pre,R0,Consumer Loan,plausible,,High-cost installment loan,1
+8318098,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Permissible purpose dispute,0
+2145080,A_pre,R0,Mortgage,plausible,,Foreclosure and servicer confusion,0
+6225867,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Identity theft block request,0
+2501324,A_post,R1,Vehicle loan or lease,plausible,,"Auto lender late fee, abusive call",1
+2004348,A_pre,R0,Student loan,plausible,,Private loan servicer interest change,0
+6590209,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+7481765,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Identity theft block request,0
+8847861,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Disputes accounts not owed,0
+8527545,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Bureaus not resolving dispute,0
+2096320,A_pre,R0,Credit reporting,plausible,,Complaint about Equifax hacking/dispute handling,0
+6609401,B_pre,R1,Vehicle loan or lease,plausible,,Wrongful car repossession,0
+2796751,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Demands verification of accounts,0
+2164847,A_pre,R0,Student loan,plausible,,Servicer transfer and late status,1
+8953775,B_post,R2,Credit card,plausible,,Unrequested credit card account opened,1
+2204941,A_pre,R0,Student loan,ambiguous,Credit reporting,Servicer late payments misreported; wants file corrected,0
+5869776,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+8315031,B_post,R2,"Payday loan, title loan, personal loan, or advance loan",plausible,,Affirm BNPL payments for undelivered item,1
+6565224,B_pre,R1,"Payday loan, title loan, or personal loan",plausible,,Ally Lending late fees,1
+8675306,B_post,R2,Debt collection,implausible,Credit reporting or other personal consumer reports,Requests block/deletion on consumer report; no collection content,0
+2880849,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Child support balance misreported,0
+8686534,B_post,R2,Credit card,plausible,,Fraudulent store card charge,1
+2814291,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Experian method of verification,0
+2271183,A_pre,R0,Credit reporting,plausible,,Paid tax lien on report,0
+8293779,B_post,R2,Prepaid card,plausible,,Bluebird prepaid card funding problem,1
+6148350,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Furnisher privacy dispute,0
+2890467,A_post,R1,Checking or savings account,plausible,,Unauthorized charges claims reversed,1
+5977116,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",ambiguous,,No substantive content; cannot judge,0
+2320693,A_pre,R0,Credit card,plausible,,Credit card charge dispute for scam,1
+2068930,A_pre,R0,Debt collection,plausible,,Aggressive payday debt buyer threats,0
+6350982,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Identity theft block request,0
+5986090,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Equifax furnishing dispute,0
+7527916,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Privacy FCRA dispute,1
+6396372,B_pre,R1,Checking or savings account,plausible,,Bank freezes account on ATM use,1
+1875129,A_pre,R0,Student loan,plausible,,Student loan balance not decreasing,1
+1887261,A_pre,R0,Money transfers,plausible,,Wire transfer phishing attempt,1
+2869915,A_post,R1,"Payday loan, title loan, or personal loan",plausible,,Lender wage garnishment,1
+2772491,A_post,R1,Mortgage,plausible,,Escrow insurance refund mishandled,0
+9077073,B_post,R2,Debt collection,plausible,,Collector seeking payment on unknown account,1
+2478629,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau dispute unanswered,0
+7910896,B_post,R2,Mortgage,plausible,,Servicer payment misapplication,0
+2275989,A_pre,R0,Bank account or service,plausible,,Raise-your-rate CD complaint,0
+8754000,B_post,R2,"Money transfer, virtual currency, or money service",plausible,,Remitly fee disclosure,1
+2701341,A_post,R1,"Money transfer, virtual currency, or money service",ambiguous,Checking or savings account,Phishing email and bank fraud call; no transfer,1
+6187612,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+7735021,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Bureau accuracy dispute,0
+6278180,B_pre,R1,"Payday loan, title loan, or personal loan",plausible,,Fraudulent payday loan applications,1
+6137857,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau dispute unanswered,0
+6400084,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Paid accounts reported negatively,0
+6391003,B_pre,R1,"Money transfer, virtual currency, or money service",ambiguous,Checking or savings account,Brokerage estate account transfer delay,0
+7994784,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Identity theft inquiries dispute,0
+7573906,B_post,R2,"Money transfer, virtual currency, or money service",plausible,,Crypto purchase verification hold,1
+8329071,B_post,R2,Credit reporting or other personal consumer reports,implausible,Debt collection,Collector harassment and threats; FDCPA focus,0
+2311238,A_pre,R0,Student loan,plausible,,Forbearance steering vs IDR,0
+2145083,A_pre,R0,Credit reporting,plausible,,TransUnion verified identity theft accounts,1
+6694837,B_pre,R1,Debt collection,plausible,,Debt verification letter to collector,0
+9434761,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Trafficking block request,0
+7941348,B_post,R2,Debt collection,plausible,,Collector pursuing rent for unknown residence,0
+2497891,A_post,R1,"Payday loan, title loan, or personal loan",plausible,,Payday loan cancellation dispute,1
+9038856,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Fraud collection on report; wants deletion,0
+7641480,B_post,R2,Credit reporting or other personal consumer reports,ambiguous,,Only 'see attached'; no content,0
+2376805,A_pre,R0,Consumer Loan,ambiguous,Credit reporting,Too vague; mentions false reporting only,1
+7310880,B_pre,R1,Debt collection,plausible,,Collector threats during negotiation,0
+6689737,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",ambiguous,Debt collection,Collector won't validate debt; accounts on report,0
+6367150,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Equifax identity verification hold,0
+2175253,A_pre,R0,Mortgage,plausible,,Escrow shortage repayment,0
+2845383,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Mislabeled collection tradeline,0
+7845505,B_post,R2,Checking or savings account,plausible,,Debit card fraud claim denied,1
+1921993,A_pre,R0,Credit card,plausible,,Credit card rebill and disputes,1
+8111573,B_post,R2,"Money transfer, virtual currency, or money service",plausible,,"Square deactivated account, funds held",0
+2842271,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Paid accounts need updating,0
+6609277,B_pre,R1,"Money transfer, virtual currency, or money service",plausible,,P2P payment never delivered,1
+6435631,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,LexisNexis bankruptcy reporting,0
+2288464,A_pre,R0,Credit card,plausible,,Erroneous charge on credit card,0
+6143322,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+6242738,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau account dates wrong,0
+2572791,A_post,R1,Debt collection,plausible,,Debt buyer without notice,0
+9817405,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Bureau dispute unanswered,0
+2880909,A_post,R1,Mortgage,plausible,,Forbearance then delinquency reporting,0
+2634483,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bankruptcy/judgment removal request,0
+7697316,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Fraudulent inquiries removal,0
+9138496,B_post,R2,Mortgage,plausible,,Escrow increase after servicing transfer,1
+2230611,A_pre,R0,Mortgage,plausible,,Short sale review with servicer,0
+5839416,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+2720806,A_post,R1,Checking or savings account,plausible,,Dormant savings account access,0
+6401112,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,1
+2481890,A_post,R1,Credit card or prepaid card,plausible,,Retroactive late fee on store card,0
+2770943,A_post,R1,Vehicle loan or lease,ambiguous,"Credit reporting, credit repair services, or other personal consumer reports",Lease disposition fee billing; wants late mark removed,1
+6933473,B_pre,R1,Debt collection,plausible,,Collection for unused program,0
+2185242,A_pre,R0,Student loan,ambiguous,Credit reporting,Servicer forbearance yet delinquency reported; wants correction,1
+2890942,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau verification without documents,0
+2665475,A_post,R1,Debt collection,plausible,,Disputed bill sent to collections,0
+9017466,B_post,R2,"Money transfer, virtual currency, or money service",plausible,,Bank held incoming wire,0
+5908097,B_pre,R1,Mortgage,plausible,,Modification and escrow dispute,1
+2240100,A_pre,R0,Mortgage,plausible,,Servicing transfer payment error,0
+6465364,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+7906724,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Data breach accounts deletion,0
+2504802,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureaus ignore removal and fraud blocks,1
+2094944,A_pre,R0,Credit card,implausible,Credit reporting,Disputes account with bureaus; wants report removal,0
+2851327,A_post,R1,Debt collection,plausible,,Collection on settled debt,1
+8260188,B_post,R2,"Payday loan, title loan, personal loan, or advance loan",plausible,,Loan refund to closed cards,1
+8112802,B_post,R2,Prepaid card,plausible,,Gift card declined,1
+6134720,B_pre,R1,"Money transfer, virtual currency, or money service",plausible,,International transfer refund missing,1
+2828836,A_post,R1,Checking or savings account,plausible,,Unauthorized debit claim denied,1
+2802382,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau dispute result confusing,0
+2501227,A_post,R1,Credit card or prepaid card,plausible,,Stolen credit card balance,0
+9716546,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Bureaus not updating disputes,0
+2720222,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Method of verification demand,0
+7773134,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Late payment markings dispute,0
+5932269,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Multiple tradeline errors across bureaus,0
+2248103,A_pre,R0,Credit card,plausible,,Disputed taxi charge on Visa,1
+1955348,A_pre,R0,Student loan,plausible,,Erroneous past-due notices on autopay,0
+6084996,B_pre,R1,Student loan,ambiguous,"Credit reporting, credit repair services, or other personal consumer reports",FCRA/FDCPA template letter; no student loan content,1
+7908345,B_post,R2,Prepaid card,plausible,,Prepaid card refund balance unusable,1
+2721004,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Follow-up on promised theft protection,0
+2009722,A_pre,R0,Debt collection,plausible,,Collector contacting despite dispute and counsel,0
+9873513,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Bureau verification request,0
+1863000,A_pre,R0,Debt collection,plausible,,Debt buyer on unopened account,0
+2099405,A_pre,R0,Mortgage,plausible,,Servicer not reflecting modification,1
+1950001,A_pre,R0,Debt collection,plausible,,Law firm garnishment accounting,0
+1884800,A_pre,R0,Money transfers,ambiguous,Consumer Loan,PayPal Credit settlement refund amount,1
+9270001,B_post,R2,Debt collection,ambiguous,Credit reporting or other personal consumer reports,Debt buyer account; wants deletion from report,0
+6465958,B_pre,R1,Mortgage,plausible,,"HAF funds not applied, foreclosure notices",1
+2745080,A_post,R1,Mortgage,plausible,,Unexpected fees after modification,1
+2822607,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Unknown derogatory record,0
+7284659,B_pre,R1,Credit card or prepaid card,plausible,,Fraudulent card charges re-billed,1
+2034305,A_pre,R0,Mortgage,plausible,,PMI cancellation refused,1
+2570501,A_post,R1,Credit card or prepaid card,plausible,,Interest charged despite grace terms,1
+5843359,B_pre,R1,Debt collection,plausible,,Collector on identity theft loan,1
+2808116,A_post,R1,Credit card or prepaid card,plausible,,Credit card purchases repeatedly declined,0
+2341784,A_pre,R0,Debt collection,plausible,,Collector claims payment authorization,0
+2175511,A_pre,R0,Debt collection,plausible,,Sued on time-barred debt,0
+6022036,B_pre,R1,Debt collection,plausible,,Debt buyer lawsuit on old card debt,0
+6919648,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Unauthorized inquiries removal,0
+2557853,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Issuer reporting utilization on closed cards,0
+2563553,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Card tradeline missing from report,0
+1936178,A_pre,R0,Bank account or service,plausible,,CitiGold checking bonus not paid,1
+5932952,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+8562706,B_post,R2,Checking or savings account,ambiguous,"Money transfer, virtual currency, or money service",Cash App account hack; P2P app vs checking,1
+6898662,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy permissible purpose dispute,0
+5969578,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Furnisher false late payments,0
+2828263,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Old missed payments deletion,0
+5897521,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Incorrect addresses at Experian,0
+8078157,B_post,R2,"Payday loan, title loan, personal loan, or advance loan",plausible,,High-cost payday loan,1
+6318580,B_pre,R1,"Payday loan, title loan, or personal loan",plausible,,OneMain fees and reporting,1
+8874430,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Fraudulent inquiries removal,0
+2732459,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Unauthorized inquiries after breach,0
+8670434,B_post,R2,Mortgage,plausible,,Disaster deferment request,1
+1947092,A_pre,R0,Prepaid card,plausible,,Gift card balance seized,1
+2475037,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Active account dropped from Equifax,0
+2832184,A_post,R1,"Money transfer, virtual currency, or money service",plausible,,Bill-pay service fees after cancellation,1
+2147677,A_pre,R0,Other financial service,plausible,,Bank check cashing fee for non-customer,1
+2680885,A_post,R1,Student loan,plausible,,Payment allocation instructions,1
+2500972,A_post,R1,Credit card or prepaid card,ambiguous,"Credit reporting, credit repair services, or other personal consumer reports","Late payments on report, letter to card issuer",1
+8668022,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Brief: false late payment on report,0
+5885643,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Privacy FCRA dispute,0
+9985725,B_post,R2,"Money transfer, virtual currency, or money service",plausible,,Wire sent via email spoofing scam,1
+6041518,B_pre,R1,Student loan,plausible,,Cannot register servicer account,1
+1902229,A_pre,R0,Credit reporting,plausible,,Equifax bankruptcy reporting practices,0
+2500624,A_post,R1,Debt collection,plausible,,Collector won't provide accounting,0
+8301286,B_post,R2,Checking or savings account,plausible,,Bank account access locked,0
+2480670,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Fraud account verified without proof,1
+7775656,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Unauthorized inquiry removal,1
+2026852,A_pre,R0,Debt collection,plausible,,Unrecognized collection,0
+2733549,A_post,R1,Mortgage,plausible,,Foreclosure assignment and modification,0
+2010059,A_pre,R0,Debt collection,plausible,,Collector calls at work,0
+2788590,A_post,R1,Debt collection,plausible,,Proof-of-claim template against collector,0
+8320861,B_post,R2,Debt collection,plausible,,Collector balance disagrees with creditor,1
+8579724,B_post,R2,Student loan,plausible,,Servicer interest/credit misapplication,1
+6693166,B_pre,R1,Vehicle loan or lease,plausible,,Auto loan application denials,1
+2813862,A_post,R1,Mortgage,plausible,,Short sale communication refused,1
+2578564,A_post,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Father's inquiries on report,0
+9291630,B_post,R2,Checking or savings account,plausible,,Bank account locks and CD setup errors,0
+2253301,A_pre,R0,Debt collection,plausible,,Bank collection calls at workplace,0
+6923912,B_pre,R1,Debt collection,plausible,,Collector rejects rental move-out dispute,1
+8058152,B_post,R2,Credit reporting or other personal consumer reports,plausible,,Unauthorized inquiries dispute,0
+2779440,A_post,R1,Mortgage,plausible,,Servicing transfer of HARP loan,1
+2740193,A_post,R1,Credit card or prepaid card,plausible,,Store card credit balance refund,1
+5865161,B_pre,R1,"Credit reporting, credit repair services, or other personal consumer reports",plausible,,Bureau verification dispute,0

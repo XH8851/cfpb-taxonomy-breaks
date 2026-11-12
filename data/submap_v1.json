@@ -1,0 +1,192 @@
+{
+ "R0": {
+  "Bank account or service": [
+   "(CD) Certificate of deposit",
+   "Cashing a check without an account",
+   "Checking account",
+   "Other bank product/service",
+   "Savings account"
+  ],
+  "Consumer Loan": [
+   "Installment loan",
+   "Title loan",
+   "Vehicle lease",
+   "Vehicle loan"
+  ],
+  "Credit card": [],
+  "Credit reporting": [],
+  "Debt collection": [
+   "Auto",
+   "Credit card",
+   "Federal student loan",
+   "I do not know",
+   "Medical",
+   "Mortgage",
+   "Non-federal student loan",
+   "Other (i.e. phone, health club, etc.)",
+   "Payday loan"
+  ],
+  "Money transfers": [
+   "Domestic (US) money transfer",
+   "International money transfer"
+  ],
+  "Mortgage": [
+   "Conventional adjustable mortgage (ARM)",
+   "Conventional fixed mortgage",
+   "FHA mortgage",
+   "Home equity loan or line of credit",
+   "Other mortgage",
+   "Reverse mortgage",
+   "VA mortgage"
+  ],
+  "Payday loan": [],
+  "Student loan": [
+   "Non-federal student loan"
+  ],
+  "Prepaid card": [
+   "General purpose card",
+   "Government benefit payment card",
+   "ID prepaid card",
+   "Other special purpose card"
+  ],
+  "Other financial service": [],
+  "Virtual currency": []
+ },
+ "R1": {
+  "Checking or savings account": [
+   "CD (Certificate of Deposit)",
+   "Checking account",
+   "Other banking product or service",
+   "Savings account"
+  ],
+  "Credit card or prepaid card": [
+   "General-purpose credit card or charge card",
+   "General-purpose prepaid card",
+   "Gift card",
+   "Government benefit card",
+   "Store credit card"
+  ],
+  "Credit reporting, credit repair services, or other personal consumer reports": [
+   "Credit repair services",
+   "Credit reporting",
+   "Other personal consumer report"
+  ],
+  "Debt collection": [
+   "Auto debt",
+   "Credit card debt",
+   "Federal student loan debt",
+   "I do not know",
+   "Medical debt",
+   "Mortgage debt",
+   "Other debt",
+   "Payday loan debt",
+   "Private student loan debt"
+  ],
+  "Money transfer, virtual currency, or money service": [
+   "Check cashing service",
+   "Debt settlement",
+   "Domestic (US) money transfer",
+   "International money transfer",
+   "Mobile or digital wallet",
+   "Money order",
+   "Traveler's check or cashier's check",
+   "Virtual currency"
+  ],
+  "Mortgage": [
+   "Conventional home mortgage",
+   "FHA mortgage",
+   "Home equity loan or line of credit (HELOC)",
+   "Other type of mortgage",
+   "Reverse mortgage",
+   "VA mortgage"
+  ],
+  "Payday loan, title loan, or personal loan": [
+   "Installment loan",
+   "Payday loan",
+   "Personal line of credit",
+   "Title loan"
+  ],
+  "Student loan": [
+   "Federal student loan servicing",
+   "Private student loan"
+  ],
+  "Vehicle loan or lease": [
+   "Lease",
+   "Loan"
+  ]
+ },
+ "R2": {
+  "Checking or savings account": [
+   "CD (Certificate of Deposit)",
+   "Checking account",
+   "Other banking product or service",
+   "Savings account"
+  ],
+  "Credit card": [
+   "General-purpose credit card or charge card",
+   "Store credit card"
+  ],
+  "Prepaid card": [
+   "General-purpose prepaid card",
+   "Gift card",
+   "Government benefit card",
+   "Payroll card"
+  ],
+  "Credit reporting or other personal consumer reports": [
+   "Credit reporting",
+   "Other personal consumer report"
+  ],
+  "Debt collection": [
+   "Auto debt",
+   "Credit card debt",
+   "Federal student loan debt",
+   "I do not know",
+   "Medical debt",
+   "Mortgage debt",
+   "Other debt",
+   "Payday loan debt",
+   "Private student loan debt",
+   "Rental debt",
+   "Telecommunications debt"
+  ],
+  "Debt or credit management": [
+   "Credit repair services",
+   "Debt settlement",
+   "Mortgage modification or foreclosure avoidance"
+  ],
+  "Money transfer, virtual currency, or money service": [
+   "Check cashing service",
+   "Domestic (US) money transfer",
+   "Foreign currency exchange",
+   "International money transfer",
+   "Mobile or digital wallet",
+   "Money order, traveler's check or cashier's check",
+   "Virtual currency"
+  ],
+  "Mortgage": [
+   "Conventional home mortgage",
+   "FHA mortgage",
+   "Home equity loan or line of credit (HELOC)",
+   "Manufactured home loan",
+   "Other type of mortgage",
+   "Reverse mortgage",
+   "USDA mortgage",
+   "VA mortgage"
+  ],
+  "Payday loan, title loan, personal loan, or advance loan": [
+   "Installment loan",
+   "Other advances of future income",
+   "Payday loan",
+   "Personal line of credit",
+   "Title loan"
+  ],
+  "Student loan": [
+   "Federal student loan servicing",
+   "Private student loan"
+  ],
+  "Vehicle loan or lease": [
+   "Lease",
+   "Loan"
+  ]
+ }
+}

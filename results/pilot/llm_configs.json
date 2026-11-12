@@ -1,0 +1,103 @@
+{
+ "single": {
+  "cost_x": 1.0,
+  "A": {
+   "acc_natural": 0.72,
+   "acc_new": 0.505,
+   "sel@0.3": 0.875,
+   "sel@0.5": 0.865,
+   "sel@0.7": 0.832,
+   "share_ge_0.999": 0.843,
+   "ece": 0.26
+  },
+  "B": {
+   "acc_natural": 0.819,
+   "acc_new": 0.566,
+   "sel@0.3": 0.962,
+   "sel@0.5": 0.935,
+   "sel@0.7": 0.927,
+   "share_ge_0.999": 0.896,
+   "ece": 0.168
+  },
+  "sel@0.5_mean": 0.9
+ },
+ "avg2": {
+  "cost_x": 2.0,
+  "A": {
+   "acc_natural": 0.722,
+   "acc_new": 0.51,
+   "sel@0.3": 0.846,
+   "sel@0.5": 0.845,
+   "sel@0.7": 0.825,
+   "share_ge_0.999": 0.725,
+   "ece": 0.204
+  },
+  "B": {
+   "acc_natural": 0.805,
+   "acc_new": 0.518,
+   "sel@0.3": 0.962,
+   "sel@0.5": 0.935,
+   "sel@0.7": 0.909,
+   "share_ge_0.999": 0.805,
+   "ece": 0.135
+  },
+  "sel@0.5_mean": 0.89
+ },
+ "avg3": {
+  "cost_x": 3.0,
+  "A": {
+   "acc_natural": 0.726,
+   "acc_new": 0.56,
+   "sel@0.3": 0.85,
+   "sel@0.5": 0.842,
+   "sel@0.7": 0.827,
+   "share_ge_0.999": 0.689,
+   "ece": 0.193
+  },
+  "B": {
+   "acc_natural": 0.812,
+   "acc_new": 0.494,
+   "sel@0.3": 0.95,
+   "sel@0.5": 0.952,
+   "sel@0.7": 0.909,
+   "share_ge_0.999": 0.755,
+   "ece": 0.11
+  },
+  "sel@0.5_mean": 0.897
+ },
+ "fewshot": {
+  "cost_x": 2.97,
+  "A": {
+   "acc_natural": 0.761,
+   "acc_new": 0.51,
+   "sel@0.3": 0.938,
+   "sel@0.5": 0.908,
+   "sel@0.7": 0.861,
+   "share_ge_0.999": 0.9,
+   "ece": 0.227
+  },
+  "B": {
+   "acc_natural": 0.866,
+   "acc_new": 0.639,
+   "sel@0.3": 0.954,
+   "sel@0.5": 0.968,
+   "sel@0.7": 0.948,
+   "share_ge_0.999": 0.941,
+   "ece": 0.126
+  },
+  "sel@0.5_mean": 0.938
+ },
+ "_flip_rates": {
+  "main_vs_reverse": 0.148,
+  "main_vs_shuffle": 0.16,
+  "main_vs_fewshot": 0.194
+ },
+ "_sec_p50": {
+  "main": 0.9504442499019206,
+  "reverse": 0.8505332500208169,
+  "shuffle": 0.9458819171413779,
+  "fewshot": 2.8262259589973837
+ },
+ "_rule": "SPEC v1 \u00a74.1: highest mean selective accuracy at 50% coverage (natural items, A and B) among configs with cost <= 2x",
+ "_choice": "single"
+}
