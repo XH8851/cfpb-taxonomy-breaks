@@ -15,7 +15,7 @@ SUB = [(ROOT_STR, "$ROOT"), (RAW_STR, "$ROOT/data/raw"), (str(Path.home()), "$HO
 
 CODE = ["01_parse_archive.py", "02_dedup_windows.py", "02v1_dedup.py", "03v1_samples.py", "03bv1_submap.py", "06v1_modernbert.py",
         "08_llm_tier.py", "08v1_llm_prep.py", "08c_contam_items.py", "13_llm_configs.py", "14_monthly_tiers.py", "15_embed.py",
-        "16_harness.py", "17_freeze_dev.py", "17b_freeze_dev_issue.py", "18_replay_v1.py", "18b_replay_issue.py", "19_contrasts.py", "19b_c4_drop_rule.py", "24_crosswalk_table.py", "23_build_supplement.py", "25_plain_abstract.py", "26_secondary.py", "27_compare_replay.py",
+        "16_harness.py", "17_freeze_dev.py", "17b_freeze_dev_issue.py", "18_replay_v1.py", "18b_replay_issue.py", "19_contrasts.py", "19b_c4_drop_rule.py", "24_crosswalk_table.py", "23_build_supplement.py", "25_plain_abstract.py", "26_secondary.py", "27_compare_replay.py", "32_frontier_sgr.py", "33_round4.py",
         "20_analysis.py", "21_make_tables.py", "22_bench_stats.py", "labels.py", "manifest.py", "make_bib.py", "check_citations.py",
         "run_phase3_cpu1.sh", "run_phase3_freeze.sh", "run_phase3_gpu.sh"]
 for f in CODE:
@@ -30,7 +30,7 @@ OUTS = ["tier_tfidf_product.parquet", "tier_emb_product.parquet", "tier_tfidf_is
         "resample_monthly.csv", "dev_factorial_summary.csv", "dev_factorial_monthly.csv", "dev_factorial_issue_summary.csv",
         "dev_knob_grid.csv", "dev_knob_grid_issue.csv", "frozen_knobs.json", "frozen_knobs_issue.json", "contrasts_alpha0.05.csv",
         "contrasts_alpha0.10.csv", "contrasts_alpha0.15.csv", "c4_drop_rule.json", "analysis.json", "cost_table.csv",
-        "mbert_meta_A.json", "mbert_meta_B.json"]
+        "mbert_meta_A.json", "mbert_meta_B.json", "frontier_monthly.csv", "round4.json"]
 # results mirror the project layout so every script runs unchanged from the supplement root
 for f in OUTS + ["secondary.json"]:
     shutil.copy(root / "results" / "v1" / f, out / "results" / "v1" / f)

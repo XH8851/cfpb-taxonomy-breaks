@@ -8,6 +8,6 @@ authors:
     orcid: "https://orcid.org/0009-0004-0983-6223"
 license: CC-BY-4.0
 repository-code: "https://github.com/XH8851/cfpb-taxonomy-breaks"
-version: 1.0.0
-date-released: "2026-11-12"
+version: 1.0.1
+date-released: "2026-11-13"
 keywords: [consumer complaints, CFPB, taxonomy change, label shift, conformal risk control, LLM cascades, benchmark]

@@ -52,7 +52,7 @@ Follows the questions of Gebru et al., *Datasheets for Datasets* (CACM 2021).
   - Volume grows 6× from window A to B.
 
 ## Distribution
-- **Distribution.** GitHub repository (https://github.com/XH8851/cfpb-taxonomy-breaks), archived on Zenodo with a DOI for each release.
+- **Distribution.** GitHub repository (https://github.com/XH8851/cfpb-taxonomy-breaks), archived on Zenodo (all versions: https://doi.org/10.5281/zenodo.24184738; each release also has its own version DOI).
 - **Licenses (proposed; author to confirm).** Code under MIT; derived benchmark files under CC BY 4.0. The underlying CFPB data are CC0.
 
 ## Maintenance

@@ -20,6 +20,8 @@ Policies (cell names)
                              calibration, preaudit month 3 = grid), applied to scheduled models
   fullstatic_{cod|plugin}    the same thresholds on the eval-start models, never updated
                              (fullstatic_plugin with tiers=[t1] is the fatal baseline B1)
+  rolling_sgr_{known|none|det}  SGR baseline (added 2026-11-13 after review): binary search on the
+                             full-cascade diagonal, Bonferroni over ceil(log2 L) steps, CP bound
   crc      rolling CRC on joint risk P(err and accepted): largest lam with (k+1)/(n+1) <= alpha
   wcrc     weighted + recency CRC: weights exp(-age/2) * max(0, cos(e_i, centroid of E_m))
   aci      plug-in at an online level alpha_t, alpha_{t+1} = alpha_t + gamma*(alpha - r_t), with r_t
@@ -109,6 +111,21 @@ def choose(cal, grid, tiers, alpha, lam0, rule, test="fs", weights=None, level=N
          empirical calibration risk <= alpha. crc/wcrc: the monotone full-cascade diagonal only.
     Returns (config or None, taus)."""
     a = alpha if level is None else level
+    if rule == "sgr":
+        # SGR (Geifman & El-Yaniv 2017): binary search for the largest acceptance on the full-cascade
+        # diagonal whose Clopper-Pearson bound <= alpha, Bonferroni over its ceil(log2 L) steps; no lam0 knob
+        P = configs(tiers, 0.05, "fs")[0]
+        steps = int(np.ceil(np.log2(len(P))))
+        lo, hi, best = -1, len(P) - 1, None
+        while lo < hi:
+            mid = (lo + hi + 1) // 2
+            taus = taus_for(grid, tiers, P[mid])
+            acc, cor, _ = route(cal, tiers, taus)
+            if cp_upper(int((acc & ~cor).sum()), int(acc.sum()), DELTA / steps) <= a:
+                lo, best = mid, (P[mid], taus)
+            else:
+                hi = mid - 1
+        return best if best is not None else (None, [np.inf] * len(tiers))
     paths = configs(tiers, lam0, "fs" if rule in ("crc", "wcrc") else test)
     d_eff = DELTA / len(paths)
     cands = []
@@ -218,7 +235,7 @@ def run(F, tiers, per, policy, alpha, W=3, lam0=0.10, test="fs", gamma=0.01, mon
                 if len(grid) < 50:
                     grid = grid.iloc[0:0]
                 if policy.startswith("rolling"):
-                    rule = "cod" if "_cod_" in policy else "plugin"
+                    rule = "cod" if "_cod_" in policy else ("sgr" if "_sgr_" in policy else "plugin")
                     _, taus = choose(cal, grid, tiers, alpha, lam0, rule, test)
                 elif policy == "crc":
                     _, taus = choose(cal, grid, tiers, alpha, lam0, "crc")

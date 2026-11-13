@@ -11,6 +11,7 @@ The layout mirrors the project, so every script runs unchanged from the reposito
   - `main_monthly.csv` / `main_summary.csv`: per-policy monthly and summary metrics (A, B; Product and Issue).
   - `dev_*`: period D, including the knob grid and the frozen knobs (`frozen_knobs*.json`).
   - `contrasts_alpha*.csv`: headline contrasts C1–C4 with block-bootstrap CIs and Holm p-values.
+  - `frontier_monthly.csv` (rolling rules over nominal levels) and `round4.json` (noise floor, matched-automation comparison, SGR).
   - `secondary.json`, `analysis.json`, `cost_table.csv`, `c4_drop_rule.json`, `resample_monthly.csv`, `contam_scores.parquet`, `llm_scores_*.parquet`.
 - `data/`
   - `samples_v1.parquet`: every sample row with complaint ID, period, role, month, regime, product, issue, stream rank and near-duplicate group. **No narrative text.**
@@ -19,7 +20,7 @@ The layout mirrors the project, so every script runs unchanged from the reposito
 - `audit/noise_audit_300.csv`: the 300-item label-noise audit (complaint IDs, regime, label, judgment). It was annotated by an LLM under the rubric in the paper's appendix, without human adjudication.
 - `PROTOCOL.md`: the protocol fixed before the final replays, with dated amendments and departures.
 - `DATASHEET.md`, `requirements.txt` (Python 3.12).
-- `code/`: all scripts. `labels.py` holds the regimes and the typed crosswalk. `16_harness.py` is the replay harness.
+- `code/`: all scripts. `labels.py` holds the regimes and the typed crosswalk. `16_harness.py` is the replay harness (policies include the SGR baseline `rolling_sgr_known`).
 
 ## Replay the paper's numbers (CPU, a few minutes, no GPU, no text needed)
 ```bash
@@ -33,6 +34,13 @@ cp -r results/v1 results/v1_shipped                                 # keep the s
 for a in 0.10 0.15 0.05; do .venv/bin/python -I code/19_contrasts.py results $a; done
 ```
 The weighted conformal-risk-control baseline (`wcrc`) needs the MiniLM embeddings (315 MB, not shipped). Without them the replay skips that one policy and says so. To regenerate them, rebuild the narrative text (below) and run `code/15_embed.py` (about 30 min on Apple MPS).
+
+## Frontier and SGR baseline (added 2026-11-13)
+```bash
+.venv/bin/python -I code/32_frontier_sgr.py data results   # CoD, plug-in, CRC, SGR at nominal levels 0.030-0.120 (about 2 min)
+.venv/bin/python -I code/33_round4.py .                    # noise floor, matched-automation table, frontier figure
+```
+`33_round4.py` writes `paper/` and `figures/` outputs; create those two folders first when running from this package.
 
 ## Evaluate a new acceptance rule
 A rule is a function `choose(cal, grid, tiers, alpha, ...) -> (config, thresholds)` in `16_harness.py`; `run(...)` applies it month by month under the shared label economy (W, delay, regime reset) and returns monthly errors, automation and new-class outcomes; `20_analysis.py` adds audit and review costs.

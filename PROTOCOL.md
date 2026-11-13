@@ -68,3 +68,9 @@ This document records the protocol of the paper *Risk-Controlled Complaint Routi
 
    The released monthly files contain the inputs for the analyses that do not need new labels.
 7. **2026-11-04.** A secondary comparison chooses the plug-in and CRC nominal levels on period D with the knob-selection rule (`code/26_secondary.py`). It is reported as secondary to C1–C4.
+8. **2026-11-13, after an external review of the draft.** Three analyses were added post hoc:
+   - **Noise floor of the clipped excess metric:** the expected score of a rule whose monthly risk equals the target.
+   - **SGR-style baseline:** policy `rolling_sgr_known` in `code/16_harness.py`. Binary search on the full-cascade diagonal over 20 acceptance fractions (0.05–1.00), Clopper–Pearson bound at δ/5 (one share per search step); thresholds are quantiles of the unlabeled stream, as for the other rules, whereas the original searches over calibration scores with ⌈log2 m⌉ steps. Adding the rule leaves the existing replays identical; `code/32_frontier_sgr.py` asserts this for rolling CoD, rolling plug-in and CRC at α = 0.10.
+   - **Frontier replay:** rolling CoD, plug-in, CRC and SGR over nominal levels 0.030–0.120, with a comparison at matched automation (`code/32_frontier_sgr.py`, `code/33_round4.py`).
+
+   They use the same cached scores, frozen knobs and label economy. C1–C4 are unchanged. The matched comparison chooses each comparator's nominal level ex post, on the evaluation windows.
